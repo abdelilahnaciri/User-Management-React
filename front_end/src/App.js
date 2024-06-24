@@ -1,8 +1,10 @@
-import './App.css';
+import "./style.css";
+import SignUp from "./SignUp";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <SignUp />
     </div>
   );
 }
