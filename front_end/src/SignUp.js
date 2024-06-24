@@ -19,7 +19,7 @@ export default function SignUp() {
             type="password"
             placeholder="Repeat Password..."
           />
-          <div>
+          <div style={{ textAlign: "center" }}>
             <button type="submit">Register</button>
           </div>
         </form>

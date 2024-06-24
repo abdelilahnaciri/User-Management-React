@@ -1,0 +1,67 @@
+/* Start Global Rules*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+.container {
+  padding: 0 10px;
+  margin: 0 auto;
+}
+/* End Global Rules*/
+/* Start Register */
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.register form {
+  width: 40%;
+  min-width: 250px;
+  padding: 20px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+.register form input {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px rgb(0 0 0 / 10%);
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+.register form input:focus {
+  border: 2px solid #86b7fe;
+}
+.register form input::placeholder {
+  color: rgb(0 0 0 / 30%);
+}
+.register button {
+  outline: none;
+  border: none;
+  background-color: #86b7fe;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.register button:hover {
+  background-color: white;
+  color: #86b7fe;
+  border: 2px solid #86b7fe;
+}
+/* End Register */
