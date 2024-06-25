@@ -26,7 +26,7 @@ body {
   margin-top: 40px;
 }
 .register form {
-  width: 40%;
+  max-width: 400px;
   min-width: 250px;
   padding: 20px;
   box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
@@ -63,5 +63,9 @@ body {
   background-color: white;
   color: #86b7fe;
   border: 2px solid #86b7fe;
+}
+.register .error-msg {
+  color: red;
+  font-size: 13px;
 }
 /* End Register */
