@@ -52,7 +52,7 @@ body {
   outline: none;
   border: none;
   background-color: #86b7fe;
-  padding: 10px 20px;
+  padding: 8px 20px;
   color: white;
   border-radius: 5px;
   font-weight: bold;
@@ -60,6 +60,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
   font-size: 13px;
+  text-decoration: none;
 }
 .register button:hover,
 .register-nav:hover {

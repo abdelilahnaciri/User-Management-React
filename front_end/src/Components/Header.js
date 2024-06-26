@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <nav className="header d-flex">
@@ -6,8 +8,12 @@ export default function Header() {
         <h6>About</h6>
       </div>
       <div className="d-flex">
-        <div className="register-nav">Register</div>
-        <div className="register-nav">Login</div>
+        <Link to="/register" className="register-nav">
+          Register
+        </Link>
+        <Link to="/login" className="register-nav">
+          Login
+        </Link>
       </div>
     </nav>
   );
