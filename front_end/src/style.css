@@ -6,6 +6,7 @@
 }
 body {
   font-family: "Cairo", sans-serif;
+  min-width: 250px;
 }
 .container {
   padding: 0 10px;
@@ -17,7 +18,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
 }
 .register {
   display: flex;
@@ -27,7 +27,7 @@ body {
 }
 .register form {
   max-width: 400px;
-  min-width: 250px;
+  /* min-width: 250px; */
   padding: 20px;
   box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
 }
@@ -47,7 +47,8 @@ body {
 .register form input::placeholder {
   color: rgb(0 0 0 / 30%);
 }
-.register button {
+.register button,
+.register-nav {
   outline: none;
   border: none;
   background-color: #86b7fe;
@@ -58,8 +59,10 @@ body {
   border: 2px solid white;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 13px;
 }
-.register button:hover {
+.register button:hover,
+.register-nav:hover {
   background-color: white;
   color: #86b7fe;
   border: 2px solid #86b7fe;
@@ -69,3 +72,27 @@ body {
   font-size: 13px;
 }
 /* End Register */
+/* Start Header */
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.header h6 {
+  font-size: 14px;
+  cursor: pointer;
+}
+@media (max-width: 360px) {
+  .header .register-nav {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+/* End Header */
