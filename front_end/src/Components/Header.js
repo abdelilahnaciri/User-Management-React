@@ -12,7 +12,7 @@ export default function Header() {
           Register
         </Link>
         <Link to="/login" className="register-nav">
-          Login
+          Log in
         </Link>
       </div>
     </nav>
