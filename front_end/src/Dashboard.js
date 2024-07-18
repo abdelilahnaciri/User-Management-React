@@ -1,13 +1,14 @@
 import SideBar from "./Components/SideBar";
 import TopBar from "./Components/TopBar";
+import Users from "./Users";
 
 export default function Dashboard() {
   return (
     <div>
       <TopBar />
-      <div className="d-flex">
+      <div className="content-flex">
         <SideBar />
-        <h1>Test</h1>
+        <Users />
       </div>
     </div>
   );

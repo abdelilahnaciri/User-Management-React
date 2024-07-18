@@ -1,3 +1,7 @@
+/* Globall */
+.content-flex {
+  display: flex;
+}
 /* Top Bar */
 .top-bar {
   box-shadow: 1px 1px 10px 1px #cbc9c9;
@@ -5,9 +9,10 @@
 
 /* Side Bar */
 .side-bar {
+  width: 20%;
+  height: 100vh;
   padding: 20px;
   border-right: 1px solid #cbc9c9;
-  width: 30%;
 }
 .item-link {
   color: black;
