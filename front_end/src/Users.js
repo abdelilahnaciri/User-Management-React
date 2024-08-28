@@ -10,11 +10,6 @@ export default function Users() {
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, [runUseEffect]);
-  // useEffect(() => {
-  //   fetch("http://127.0.0.1:8000/api/user/showbyid/14")
-  //     .then((res) => res.json())
-  //     .then((data) => console.log(data));
-  // }, []);
 
   async function deleteUser(id) {
     try {
